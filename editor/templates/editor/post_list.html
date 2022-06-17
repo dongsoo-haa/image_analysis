@@ -1,0 +1,32 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+        </script>
+
+        <!-- file upload -->
+        <form action = "/fileUpload" method = "POST"
+            enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+
+            <br/>
+
+            <!-- select weather -->
+            <input type="radio" name="weather" value="sun" checked>sun
+            <input type="radio" name="weather" value="snow" check>snow
+            <input type="radio" name="weather" value="rain" check>rain
+
+            <br/>
+
+            <!-- edit -->
+            edit
+            <input type="text" name="edit">
+
+            <br/>
+
+            <input type = "submit"/>
+        </form>
+    
+    </body>
+</html>
